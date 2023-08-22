@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #142738!important;
+}
+.navbar-nav a{
+    color: aliceblue!important;
+}
+.navbar-nav [href="#"]{
+    color: #f4436f!important;
+}
+
+.categories, .searcher{
+    margin: 5px 5px;
+}
+
+.carDetails{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 20px;
+    background-color: #142738;
+    z-index: -50;
+}
+.carDetails img{
+    width: 50%;
+    margin-right: 5px;
+}
+.carDetails .card-body{
+    background-color: aliceblue!important;
+    margin-left: 5px;
+} 
+footer{
+    background-color: #142738;
+}
