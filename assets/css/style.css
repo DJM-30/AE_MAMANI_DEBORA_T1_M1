@@ -1,17 +1,35 @@
+body, html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
 .navbar{
     background-color: #142738!important;
 }
 .navbar-nav a{
     color: aliceblue!important;
+    font-size: 18px;
 }
 .navbar-nav [href="#"]{
     color: #f4436f!important;
 }
-
+.navbar-collapse{
+    flex-grow: 0;
+}
 .categories, .searcher{
     margin: 5px 5px;
 }
-
+.card{
+    height: 100%;
+}
+.card:hover{
+    box-shadow: 10px 10px 5px 0px rgba(244,67,111,0.31);
+}
 .carDetails{
     display: flex;
     flex-direction: row;

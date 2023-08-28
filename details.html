@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Details</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <nav class="navbar navbar-expand-md bg-body-tertiary p-3">
             <div class="container-fluid d.flex ">
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                 <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> -->
-                <dvi class="logo">
-                    <img src="./assets/img/amazing_brand.png" alt="logo" width="200px">
-                </dvi>
+                <div class="logo">
+                    <img src="./assets/img/amazing_brand.png" alt="logo" width="200">
+                </div>
                 <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -44,28 +45,29 @@
             </div>
         </nav>
     </header>
-
-    <div class="container py-5">
-        <div class="row g-3">
-            <div class="card mb-3 carDetails">
-                <img src="./assets/img/music_concert.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Event dats...</p>
-                    <p class="card-text">Event dats...</p>
-                    <p class="card-text">Event dats...</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    <main>
+        <div class="container py-5">
+            <div class="row g-3">
+                <div class="card mb-3 carDetails">
+                    <img src="./assets/img/music_concert.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Event dats...</p>
+                        <p class="card-text">Event dats...</p>
+                        <p class="card-text">Event dats...</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
     <footer class="footer d-flex justify-content-between p-3">
         <div class="social-media">
-            <img class="rounded-circle" src="./assets/img/facebook.png" alt="facebook">
-            <img class="rounded-circle" src="./assets/img/instagram.png" alt="instagram">
-            <img class="rounded-circle" src="./assets/img/whatsapp.png" alt="whatsapp">
+            <img class="rounded-circle" src="./assets/img/facebook.png" alt="facebook" width="50">
+            <img class="rounded-circle" src="./assets/img/instagram.png" alt="instagram" width="50">
+            <img class="rounded-circle" src="./assets/img/whatsapp.png" alt="whatsapp" width="50">
         </div>
-        <div class="cohorte font-weight-bold fs-3">
+        <div class="cohorte font-weight-bold fs-4 d-flex justify-content-center align-items-center">
             <span class="text-secondary">COHORT 02 TT</span>
         </div>
     </footer>
