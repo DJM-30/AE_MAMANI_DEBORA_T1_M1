@@ -24,6 +24,9 @@ main{
 .categories, .searcher{
     margin: 5px 5px;
 }
+.searcher{
+    flex-grow: 0;
+}
 .card{
     height: 100%;
 }
@@ -36,14 +39,19 @@ main{
     padding: 25px 20px;
     background-color: #142738;
     z-index: -50;
+    border-radius: 24px;
 }
 .carDetails img{
     width: 50%;
-    margin-right: 5px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 14px;
 }
 .carDetails .card-body{
     background-color: aliceblue!important;
-    margin-left: 5px;
+    margin-left: 10px;
+    border-radius: 14px;
 } 
 footer{
     background-color: #142738;
